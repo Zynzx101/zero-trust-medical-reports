@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+.pathology-details {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.pathology-details h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.pathology-details .date {
+  margin: 0.2rem 0 0 0;
+  font-size: 1.2rem;
+}
+
+.patient-identifers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-top: 1px solid #333;
+}
+
+.patient-name,
+.patient-dob,
+.patient-gender,
+.patient-medical-id {
+  margin: 0;
+}
+
+.patient-name {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.patient-name strong {
+  font-weight: 800;
+}
+
+.pathology-page {
+  padding: 1.5rem 2rem 3rem 2rem;
+}
+
+.report-section {
+  margin-bottom: 2rem;
+  border: 1px solid #d9d9d9;
+}
+
+.section-header {
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.section-header p {
+  margin: 0.3rem 0 0 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.green-section .section-header {
+  background-color: #edf8e5;
+}
+
+.blue-section .section-header {
+  background-color: #e5f8fb;
+}
+
+.report-table {
+  width: 100%;
+}
+
+.report-row {
+  display: grid;
+  grid-template-columns: 1.3fr 1.5fr 0.5fr 1.8fr 0.7fr 0.8fr 1.4fr;
+  gap: 0.5rem;
+  padding: 0.8rem 1rem;
+  border-top: 1px solid #e5e5e5;
+  align-items: start;
+  font-size: 1rem;
+}
+
+.report-heading {
+  font-weight: 700;
+  background-color: transparent;
+  border-top: none;
+}
+
+.report-row a {
+  color: #3f3fa8;
+  text-decoration: underline;
+}
+
+.section-footer {
+  background-color: #666;
+  color: white;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.navigation-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: #3f3fa8;
+  background-color: #f1f1f1;
+  border: 1px solid #d8d8d8;
+  font-size: 1rem;
+}
+
+.green-btn {
+  background-color: #edf8e5;
+}
+
+.blue-btn {
+  background-color: #dff6fb;
+}
+
+.disabled-btn {
+  color: #999;
+  cursor: not-allowed;
+}
+
+.latest-report-section {
+  margin-top: 1rem;
+}
+
+.latest-report-section h3 {
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.latest-report-section p {
+  margin: 0.4rem 0 0 0;
+  color: #444;
+  font-size: 1rem;
+}
